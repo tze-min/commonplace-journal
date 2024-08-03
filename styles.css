@@ -6,3 +6,16 @@ body {
 h2 {
     margin: 30px 0px 5px;
 }
+
+.side-bar {
+    width: 20%;
+    border: 0.2rem solid;
+    padding: 15px;
+    float: left;
+    margin-top: 25px
+}
+
+.main-bar {
+    margin-left: 30%;
+    margin-right: 10%
+}
