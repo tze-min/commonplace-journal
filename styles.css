@@ -14,6 +14,11 @@ img {
     margin-right: auto;
 }
 
+dd {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 .side-bar {
     width: 20%;
     border: 0.2rem solid;
