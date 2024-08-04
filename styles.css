@@ -36,6 +36,10 @@ a:hover {
     transition: 0.3s ease;
 }
 
+li {
+    margin: 3px 0px;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
