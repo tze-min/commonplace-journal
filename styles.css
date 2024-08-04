@@ -19,6 +19,19 @@ dd {
     margin-bottom: 10px;
 }
 
+a {
+    color: 264653;
+    background-color: transparent;
+    text-decoration: underline dotted;
+}
+
+a:hover {
+    color: e76f51;
+    background-color: transparent;
+    text-decoration: underline dotted;
+    transition: 0.3s ease;
+}
+
 .side-bar {
     width: 20%;
     border: 0.2rem solid;
