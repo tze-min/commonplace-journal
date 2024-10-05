@@ -69,6 +69,11 @@ li {
     margin-right: 10%;
 }
 
-.tag {
+.tagContainer {
     margin-right: 10px;
+}
+
+.postContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
