@@ -45,8 +45,8 @@ jobs:
 
     - name: Generate pages.json
       run: |
-      pipenv shell
-      python scripts/generate-pages-json.py
+        pipenv shell
+        python scripts/generate-pages-json.py
 
     - name: Commit and push pages.json if changed
       run: |
