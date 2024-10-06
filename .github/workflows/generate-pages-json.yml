@@ -30,7 +30,21 @@ jobs:
       run: |
         pipenv install --deploy --dev
 
+    - name: Debug environment
+      run: |
+        echo "Python version:"
+        python --version
+        echo "Pipenv version:"
+        pipenv --version
+        echo "Pip list:"
+        pipenv run pip list
+        echo "Current directory:"
+        pwd
+        echo "Directory contents:"
+        ls -la
+
     - name: Generate pages.json
+      pipenv shell
       run: python scripts/generate-pages-json.py
 
     - name: Commit and push pages.json if changed
