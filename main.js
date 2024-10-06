@@ -1,5 +1,5 @@
-let POSTS_SET = new Set();
-let TAGS_SET = new Set();
+let POSTS_LIST = [];
+let TAGS_MAP = new Map();
 const FILEPATH = 'pages.json';
 
 async function getPosts() {
@@ -9,17 +9,19 @@ async function getPosts() {
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
-        const postsList = await response.json();
-        console.log('postsList after fetching json', postsList);
+        pagesJson = await response.json();
         
         // display a unique set of tags
-        postsList.forEach(page => {
-            page.tags.forEach(tag => {
-                TAGS_SET.add(tag);
+        pagesJson.forEach(page => {
+            buildPostsList(page.title, page.url);
+            page.tags.forEach(tag => { 
+                buildTagsMap(tag, page.title, page.url);
             })
-            const content = [page.url, page.title];
-            POSTS_SET.add(content);
         })
+
+        // listen for click of "show all" button
+        const showAllButton = document.getElementById('showAll');
+        showAllButton.addEventListener('click', () => showPosts());
     } catch (error) {
         console.error(error.message);
     }
@@ -28,33 +30,51 @@ async function getPosts() {
     showPosts();
 }
 
+function buildPostsList(title, url) {
+    POSTS_LIST.push([title, url]);
+}
+
+function buildTagsMap(tag, title, url) {
+    if (TAGS_MAP.has(tag)) {
+        let posts = TAGS_MAP.get(tag);
+        posts.push([title, url]);
+        TAGS_MAP.set(tag, posts);
+    } else {
+        TAGS_MAP.set(tag, [[title, url]]);
+    }
+}
+
 function showTags() {
 // display a unique list of tags
     const tagList = document.getElementById('tagList');
-    TAGS_SET.forEach(tag => {
+    TAGS_MAP.keys().forEach(tag => {
         const tagButton = document.createElement('button');
         tagButton.innerHTML = tag;
         tagButton.className = 'tagContainer';
-        // tagButton.addEventListener('click', filterPosts(tag));
+        tagButton.addEventListener('click', () => filterPosts(tag));
 
         tagList.appendChild(tagButton);
     })
 }
 
-// function filterPosts(selectedTag) {
-//     // filter posts given a tag
-//         console.log('im getting run');
-//         const filteredPosts = POSTS_SET.filter(post => post.tags.includes(selectedTag));
-//         console.log(filteredPosts);
-//         showPosts(filteredPosts);
-//     }
+function filterPosts(selectedTag) {
+// select posts given a tag
+    const filteredPosts = TAGS_MAP.get(selectedTag);
+    showPosts(filteredPosts);
+}
 
-function showPosts(filteredPosts = POSTS_SET) {
+function clearPosts() {
+    const postList = document.getElementById('postList');
+    postList.innerHTML = '';
+}
+
+function showPosts(filteredPosts = POSTS_LIST) {
 // display a unique list of posts, filtered if a tag's been selected
+    clearPosts();
+
     const postList = document.getElementById('postList');
     filteredPosts.forEach(post => {
-        console.log('looping through', post);
-        const [url, title] = [post[0], post[1]];
+        const [title, url] = [post[0], post[1]];
         const postContainer = document.createElement('div');
         postContainer.className = 'postContainer';
 

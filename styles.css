@@ -1,5 +1,6 @@
 body {
     margin: 30px;
+    font-size: 16;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,7 +70,28 @@ li {
     margin-right: 10%;
 }
 
+button {
+    padding: 0px;
+    border: none;
+    background: none;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    color: e76f51;
+    background-color: transparent;
+    text-decoration: underline dotted;
+    transition: 0.3s ease;
+}
+
+#showAll {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .tagContainer {
+    margin-top: 10px;
     margin-right: 10px;
 }
 
