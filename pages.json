@@ -1,9 +1,40 @@
 [
   {
+    "title": "Climate Change AI Summer School 2024",
+    "url": "./pages/ccai-2024.html",
+    "tags": [
+      "climate change",
+      "analytics",
+      "courses"
+    ]
+  },
+  {
+    "title": "Compilation of what I've learned about analytics",
+    "url": "./pages/data-analytics.html",
+    "tags": [
+      "analytics",
+      "mentoring"
+    ]
+  },
+  {
+    "title": "Learnings from flower pressing",
+    "url": "./pages/flower-pressing.html",
+    "tags": [
+      "flower pressing"
+    ]
+  },
+  {
     "title": "Learnings from playing around with the web",
     "url": "./pages/web-development.html",
     "tags": [
       "web development"
+    ]
+  },
+  {
+    "title": "Learnings from urban sketching",
+    "url": "./pages/urban-sketching.html",
+    "tags": [
+      "urban sketching"
     ]
   },
   {
@@ -18,37 +49,6 @@
     "url": "./pages/working-life.html",
     "tags": [
       "working life"
-    ]
-  },
-  {
-    "title": "Learnings from flower pressing",
-    "url": "./pages/flower-pressing.html",
-    "tags": [
-      "flower pressing"
-    ]
-  },
-  {
-    "title": "Compilation of what I've learned about analytics",
-    "url": "./pages/data-analytics.html",
-    "tags": [
-      "analytics",
-      "mentoring"
-    ]
-  },
-  {
-    "title": "Learnings from urban sketching",
-    "url": "./pages/urban-sketching.html",
-    "tags": [
-      "urban sketching"
-    ]
-  },
-  {
-    "title": "Climate Change AI Summer School 2024",
-    "url": "./pages/ccai-2024.html",
-    "tags": [
-      "climate change",
-      "analytics",
-      "courses"
     ]
   }
 ]

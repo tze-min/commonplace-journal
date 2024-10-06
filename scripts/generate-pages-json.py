@@ -22,6 +22,12 @@ def get_html_pages(filepath):
         }
         return result
 
+def sort_html_pages(pages):
+    '''
+    Given a list of dictionaries, sort them by alphabetical order of the key "title"
+    '''
+    return sorted(pages, key=lambda page: page['title'])
+
 def get_html_pages_from_directory(directory):
     '''
     Given a directory of html files, iterate through each file and apply get_html_tags to return a list of dict
@@ -30,7 +36,7 @@ def get_html_pages_from_directory(directory):
     for filename in os.listdir(directory):
         filepath = directory + '/' + filename
         pages.append(get_html_pages(filepath))
-    return pages
+    return sort_html_pages(pages)
 
 def generate_pages_json(directory):
     '''
