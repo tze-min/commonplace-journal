@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="../styles.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body data-tags="analytics; mentoring">
     <header>
         <title>Compilation of what I've learned about analytics</title>
     </header>
@@ -48,7 +48,7 @@
 
     <p>Now, I have the option to talk about branches. If the repository they're working on already uses branching and collaborators need to make pull requests, then I find this a good time to bring up the concept, lest it gets confusing later on. If it's their new personal repository where there's little likelihood of conflict should they pull from and push to main, then I could save the topic of branches and pull requests for later.</p>
     <p>To introduce branches and PRs, I pull out a diagram (adapted from <a href="https://www.nobledesktop.com/learn/git/git-branches">noble desktop</a>):</p>
-    <img src="images/git-branches-merge.png" alt="A diagram of a git master branch with two child branches extending from it and merging back into it at different points in time">
+    <img src="../images/git-branches-merge.png" alt="A diagram of a git master branch with two child branches extending from it and merging back into it at different points in time">
     <p>Imagine a tree. It has a trunk, out of which grow branches. That trunk, the main branch, is what you're seeing here: it contains code and files that produce the website you're seeing now or that produce whatever the files are telling the computer to produce (kinda). If you're using Visual Studio Code as the IDE, you can tell what branch you're on by looking for the branch's name on the bottom left of the editor. You can also open your terminal and enter the command <code>git branch</code>; the asterik next to the branch name is, well, where you're at.</p>
     <p>Let's say you want to add a new feature to the site, or submit a change to the main branch. Enter <code>git checkout -b yourbranch</code> in the terminal, and see how the name of the branch changes in the IDE, and how the asterik appears next to your new branch when you enter <code>git branch</code> again. You're now on a little branch coming out of the main trunk, and this little branch is called <code>yourbranch</code>. With the new branch created, you can switch between <code>main</code> and <code>yourbranch</code> by using <code>git checkout main</code> and <code>git checkout yourbranch</code> respectively.</p>
     <p>It's here that I introduce them to <a href="https://git-scm.com/docs/git">git's documentation</a> and tell them about the <code>-b</code> flag they used earlier and why they didn't have to include it when switching between branches. I want them to get into the habit of referring to documentation.</p>
@@ -59,7 +59,7 @@
     <h4>Grasping the git workflow by making their first pull request</h4>
     
     <p>Enough of high-level explanations; it's time to make those edits. I watch them do it in <code>yourbranch</code>, save it, and then I pull out a diagram (adapted from <a href="https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91">freecodecamp</a>):</p>
-    <img src="images/git-workflow-diagram.png" alt="A black and white diagram of git commands like git add, commit, push, merge, fetch and pull, and how they work">
+    <img src="../images/git-workflow-diagram.png" alt="A black and white diagram of git commands like git add, commit, push, merge, fetch and pull, and how they work">
     <p>I point to the working directory. "Your changes are here now," I tell them, "and your aim is to get them ready for a pull request by your collaborators. So you'll need to get your changes to here instead," and I point to the remote repository (main). I open up GitHub and navigate to the repository. "Once you do that, you'll see your changes reflected here."</p>
     <p>Here, it gets a bit messy, but I try to tie my explanations back to previous analogies, while introducing new commands:</p>
     <p><strong>Figure out where you are with <code>git status</code></strong>: Enter <code>git status</code> in the terminal and read to me what the output says. It should indicate we're on <code>yourbranch</code> and that there are untracked files. "Use <code>git add</code> to include in what will be committed," it writes, so try that command and enter <code>git status</code> again.</p>
