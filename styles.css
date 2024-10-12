@@ -95,6 +95,11 @@ button:hover {
     margin-right: 10px;
 }
 
+.tagContainer.selected {
+    color: e76f51;
+    text-decoration: underline dotted;
+}
+
 .postContainer {
     margin-top: 10px;
     margin-bottom: 10px;

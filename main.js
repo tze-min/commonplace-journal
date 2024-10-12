@@ -59,8 +59,28 @@ function showTags() {
 
 function filterPosts(selectedTag) {
 // select posts given a tag
-    const filteredPosts = TAGS_MAP.get(selectedTag);
-    showPosts(filteredPosts);
+    const tagButtons = document.querySelectorAll('.tagContainer');
+    
+    // check if user's deselecting any tag buttons
+    let isDeselecting = false;
+    tagButtons.forEach(button => {
+        if (button.innerHTML === selectedTag && button.classList.contains('selected')) {
+            isDeselecting = true;
+        }
+    })
+
+    if (isDeselecting) {
+        // if user's deselecting a tag, show all posts
+        showPosts();
+        tagButtons.forEach(button => button.classList.remove('selected'));
+    } else {
+        // else, show only the filtered posts and add the selected class to the tag button element
+        const filteredPosts = TAGS_MAP.get(selectedTag);
+        tagButtons.forEach(button => {
+            button.innerHTML === selectedTag ? button.classList.add('selected') : button.classList.remove('selected');
+        })
+        showPosts(filteredPosts);
+    }
 }
 
 function clearPosts() {
