@@ -4,51 +4,44 @@
     "url": "./pages/ccai-2024.html",
     "tags": [
       "climate change",
-      "analytics",
+      "data",
       "courses"
     ]
   },
   {
-    "title": "Compilation of what I've learned about analytics",
-    "url": "./pages/data-analytics.html",
+    "title": "Explaining git to the layperson",
+    "url": "./pages/explaining-git-to-the-layperson.html",
     "tags": [
-      "analytics",
-      "mentoring"
+      "data",
+      "mentorship"
     ]
   },
   {
-    "title": "Learnings from flower pressing",
-    "url": "./pages/flower-pressing.html",
+    "title": "Getting into urban sketching",
+    "url": "./pages/getting-into-urban-sketching.html",
     "tags": [
-      "flower pressing"
+      "art"
     ]
   },
   {
-    "title": "Learnings from playing around with the web",
-    "url": "./pages/web-development.html",
+    "title": "Haiku-writing (in English)",
+    "url": "./pages/haiku-writing-in-english.html",
     "tags": [
-      "web development"
+      "art"
     ]
   },
   {
-    "title": "Learnings from urban sketching",
-    "url": "./pages/urban-sketching.html",
+    "title": "How to press flowers",
+    "url": "./pages/how-to-press-flowers.html",
     "tags": [
-      "urban sketching"
+      "art"
     ]
   },
   {
-    "title": "Learnings from writing poems",
-    "url": "./pages/english-poetry.html",
+    "title": "SQL query optimization",
+    "url": "./pages/sql-query-optimization.html",
     "tags": [
-      "poetry"
-    ]
-  },
-  {
-    "title": "Soft skills from work",
-    "url": "./pages/working-life.html",
-    "tags": [
-      "working life"
+      "data"
     ]
   }
 ]
