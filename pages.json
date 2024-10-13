@@ -4,7 +4,7 @@
     "url": "./pages/attending-the-climate-change-ai-summer-school-2024.html",
     "tags": [
       "climate change",
-      "data",
+      "tech and data",
       "courses"
     ]
   },
@@ -12,7 +12,7 @@
     "title": "Explaining git to the layperson",
     "url": "./pages/explaining-git-to-the-layperson.html",
     "tags": [
-      "data",
+      "tech and data",
       "mentorship"
     ]
   },
@@ -34,7 +34,7 @@
     "title": "SQL query optimization",
     "url": "./pages/sql-query-optimization.html",
     "tags": [
-      "data"
+      "tech and data"
     ]
   }
 ]
