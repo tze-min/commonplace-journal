@@ -6,16 +6,21 @@ Learn! This site is my playground and where I gather ideas.
 
 ## Log
 
-### 13-10-2024
+### 14-10-2024
 
 What it entails
 
-- Replaced "Show all posts" button with the ability to deselect tags and unfilter posts
 - Cleaned up home page, posts and tags
 
 Resources
 
 - [search.gov](https://search.gov/indexing/metadata.html#tags--keywords) introduced me to standard, OpenGraph and DublinCore fields for metadata design; I'm intrigued
+
+### 13-10-2024
+
+What it entails
+
+- Replaced "Show all posts" button with the ability to deselect tags and unfilter posts
 
 ### 06-10-2024
 
