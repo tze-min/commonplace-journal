@@ -2,16 +2,18 @@
 <head>
     <link rel="stylesheet" href="../styles.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
 </head>
-<body data-tags="analytics; mentoring">
+<body data-tags="tech and data; mentorship">
     <header>
-        <title>Compilation of what I've learned about analytics</title>
+        <title>Explaining git to the layperson</title>
     </header>
 
     <div class="main-bar">
-    <h1>Analytics: my learnings</h1>
+    <h1>Explaining git to the layperson</h1>
     <p>Return to <a href="../index.html">home</a>.</p>
 
+<!-- 
     <h2>Readings</h2>
     <p>Articles that've stood out to me, or that I'd like to revisit:</p>
     <ul>
@@ -25,14 +27,12 @@
     <ul>
         <li>Fundamentals of Data Engineering, by Joe Reis and Matt Housley</li>
         <li>The Data Warehouse Toolkit, 3rd Edition, by Ralph Kimball & Margy Ross</li>
-    </ul>
+    </ul> 
+-->
 
-    <h2>Learnings</h2>
-
-    <h3>Explaining git to the layperson</h3>
     <p>In 2024, I've had to explain how git works to a couple of people who don't know what it is, and this explanation seems to have worked:</p>
 
-    <h4>Grasping versioning and collaboration using the GDrive analogy</h4>
+    <h2>Grasping versioning and collaboration using the GDrive analogy</h2>
 
     <p>You know Google Drive? A git repository is like a Google Drive folder:</p>
     <ul>
@@ -44,7 +44,7 @@
     <p>At this point, I ask them if they get the analogy and if they have questions. Once we clarify the latter, I guide them through setting up their IDE and cloning a repository (if there's an existing one they can work on) or creating a new git repository for a project. The idea's to ensure they have the tools to practice while they learn. It's fine if they don't get the meaning of <code>git clone</code> or <code>git init</code> or the exact process behind these commands yet, but it's important they know they can return to that later.</p>
     <p>If it's an existing repository, I walk them through its file structure in their IDE. If we're using GitHub, I walk them through the same thing there. If there's a particular file I want them to work on after this, I explain what it does and what's missing from it. Ideally it's a simple improvement that needs to be made, e.g. editing a couple of lines of code. Here, I want them to see the similarities between the files they have in their local computer and the files in GitHub.</p>
     
-    <h4>Grasping branches using the tree analogy</h4>
+    <h2>Grasping branches using the tree analogy</h2>
 
     <p>Now, I have the option to talk about branches. If the repository they're working on already uses branching and collaborators need to make pull requests, then I find this a good time to bring up the concept, lest it gets confusing later on. If it's their new personal repository where there's little likelihood of conflict should they pull from and push to main, then I could save the topic of branches and pull requests for later.</p>
     <p>To introduce branches and PRs, I pull out a diagram (adapted from <a href="https://www.nobledesktop.com/learn/git/git-branches">noble desktop</a>):</p>
@@ -56,7 +56,7 @@
     <p> We call this raising a pull request. The aim of it is to get your collaborators to check through your code, and if they're okay with it, they'll approve it. That's when you can merge <code>yourbranch</code> into <code>main</code>.</p>
     <p>I stop here for a clarity check: do they have any questions?</p>
 
-    <h4>Grasping the git workflow by making their first pull request</h4>
+    <h2>Grasping the git workflow by making their first pull request</h2>
     
     <p>Enough of high-level explanations; it's time to make those edits. I watch them do it in <code>yourbranch</code>, save it, and then I pull out a diagram (adapted from <a href="https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91">freecodecamp</a>):</p>
     <img src="../images/git-workflow-diagram.png" alt="A black and white diagram of git commands like git add, commit, push, merge, fetch and pull, and how they work">

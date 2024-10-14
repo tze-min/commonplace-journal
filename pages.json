@@ -1,54 +1,40 @@
 [
   {
-    "title": "Climate Change AI Summer School 2024",
-    "url": "./pages/ccai-2024.html",
+    "title": "Attending the Climate Change AI Summer School 2024",
+    "url": "./pages/attending-the-climate-change-ai-summer-school-2024.html",
     "tags": [
       "climate change",
-      "analytics",
+      "tech and data",
       "courses"
     ]
   },
   {
-    "title": "Compilation of what I've learned about analytics",
-    "url": "./pages/data-analytics.html",
+    "title": "Explaining git to the layperson",
+    "url": "./pages/explaining-git-to-the-layperson.html",
     "tags": [
-      "analytics",
-      "mentoring"
+      "tech and data",
+      "mentorship"
     ]
   },
   {
-    "title": "Learnings from flower pressing",
-    "url": "./pages/flower-pressing.html",
+    "title": "Getting into urban sketching",
+    "url": "./pages/getting-into-urban-sketching.html",
     "tags": [
-      "flower pressing"
+      "art"
     ]
   },
   {
-    "title": "Learnings from playing around with the web",
-    "url": "./pages/web-development.html",
+    "title": "How to press flowers",
+    "url": "./pages/how-to-press-flowers.html",
     "tags": [
-      "web development"
+      "art"
     ]
   },
   {
-    "title": "Learnings from urban sketching",
-    "url": "./pages/urban-sketching.html",
+    "title": "SQL query optimization",
+    "url": "./pages/sql-query-optimization.html",
     "tags": [
-      "urban sketching"
-    ]
-  },
-  {
-    "title": "Learnings from writing poems",
-    "url": "./pages/english-poetry.html",
-    "tags": [
-      "poetry"
-    ]
-  },
-  {
-    "title": "Soft skills from work",
-    "url": "./pages/working-life.html",
-    "tags": [
-      "working life"
+      "tech and data"
     ]
   }
 ]
