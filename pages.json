@@ -2,6 +2,8 @@
   {
     "title": "Attending the Climate Change AI Summer School 2024",
     "url": "./pages/attending-the-climate-change-ai-summer-school-2024.html",
+    "published": "2024-09-07",
+    "modified": "2024-09-25",
     "tags": [
       "climate change",
       "tech and data",
@@ -11,30 +13,38 @@
   {
     "title": "Explaining git to the layperson",
     "url": "./pages/explaining-git-to-the-layperson.html",
+    "published": "2024-07-29",
+    "modified": "2024-08-04",
     "tags": [
       "tech and data",
       "mentorship"
     ]
   },
   {
-    "title": "Getting into urban sketching",
-    "url": "./pages/getting-into-urban-sketching.html",
+    "title": "SQL query optimization",
+    "url": "./pages/sql-query-optimization.html",
+    "published": "2024-07-29",
+    "modified": "2024-08-07",
     "tags": [
-      "art"
+      "tech and data"
     ]
   },
   {
     "title": "How to press flowers",
     "url": "./pages/how-to-press-flowers.html",
+    "published": "2024-07-28",
+    "modified": "2024-08-04",
     "tags": [
       "art"
     ]
   },
   {
-    "title": "SQL query optimization",
-    "url": "./pages/sql-query-optimization.html",
+    "title": "Getting into urban sketching",
+    "url": "./pages/getting-into-urban-sketching.html",
+    "published": "2024-07-22",
+    "modified": "2024-10-13",
     "tags": [
-      "tech and data"
+      "art"
     ]
   }
 ]
