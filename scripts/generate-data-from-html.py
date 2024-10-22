@@ -2,7 +2,6 @@ import os
 import json
 from bs4 import BeautifulSoup
 import hashlib
-# import PyRSS2Gen
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -106,10 +105,7 @@ def generate_rss_feed(directory):
     tree = ET.ElementTree(feed)
     print('tree...', tree)
     tree.write(RSS_XML, encoding='utf-8', xml_declaration=True)
-    # print(type(ET.tostring(feed, encoding="unicode")))
-    # tree = ET.ElementTree(ET.tostring(feed, encoding="utf-8"))
-    # tree.write(RSS_XML, encoding="utf-8", xml_declaration=True)
 
 if __name__ == "__main__":
     generate_rss_feed(HTML_DIRECTORY)
-    # generate_pages_json(HTML_DIRECTORY)
+    generate_pages_json(HTML_DIRECTORY)
