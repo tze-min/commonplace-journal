@@ -1,4 +1,4 @@
-name: Generate pages.json
+name: Generate data from posts
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -8,7 +8,7 @@ on:
     - main
 
 jobs:
-  generate_pages_json:
+  generate_data_from_posts:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
@@ -41,9 +41,9 @@ jobs:
         echo "Directory contents:"
         ls -la
 
-    - name: Generate pages.json
+    - name: Generate data from posts
       run: |
-        pipenv run python scripts/generate-pages-json.py
+        pipenv run python scripts/generate-data-from-posts.py
 
     - name: Commit and push pages.json if changed
       run: |
