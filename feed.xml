@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Tze Min's commonplace journal</title><link>https://commonplace-journal.pages.dev</link><description>Here, I write about my everyday learnings, including my notes, thoughts and references.</description><lastBuildDate>Tue, 22 Oct 2024 16:18:45 +0000</lastBuildDate><item><title>Getting into urban sketching</title><link>https://commonplace-journal.pages.dev/pages/getting-into-urban-sketching.html</link><guid>646b9aa7cc1d490ff0bd76e246277b8b</guid><description>&lt;![CDATA[&lt;body data-tags="art"&gt;
+<rss version="2.0"><channel><title>Tze Min's commonplace journal</title><link>https://commonplace-journal.pages.dev</link><description>Here, I write about my everyday learnings, including my notes, thoughts and references.</description><lastBuildDate>Sat, 26 Oct 2024 07:09:20 +0000</lastBuildDate><item><title>Getting into urban sketching</title><link>https://commonplace-journal.pages.dev/pages/getting-into-urban-sketching.html</link><guid>646b9aa7cc1d490ff0bd76e246277b8b</guid><description>&lt;![CDATA[&lt;body data-tags="art"&gt;
 &lt;header&gt;
 &lt;title&gt;Getting into urban sketching&lt;/title&gt;
 &lt;/header&gt;
+&lt;nav class="page-nav"&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/nav&gt;
 &lt;div class="main-bar"&gt;
 &lt;h1&gt;Getting into urban sketching&lt;/h1&gt;
-&lt;p&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Materials used&lt;/h2&gt;
 &lt;p&gt;I wanted the cheap stuff to play around with first, though my collection of cheap materials grew rapidly over the span of a year, until they were... no longer that cheap when accounted for in total:&lt;/p&gt;
 &lt;ul&gt;
@@ -110,9 +110,9 @@
 &lt;header&gt;
 &lt;title&gt;Explaining git to the layperson&lt;/title&gt;
 &lt;/header&gt;
+&lt;nav class="page-nav"&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/nav&gt;
 &lt;div class="main-bar"&gt;
 &lt;h1&gt;Explaining git to the layperson&lt;/h1&gt;
-&lt;p&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- 
     &lt;h2&gt;Readings&lt;/h2&gt;
     &lt;p&gt;Articles that've stood out to me, or that I'd like to revisit:&lt;/p&gt;
@@ -182,9 +182,9 @@
 &lt;header&gt;
 &lt;title&gt;How to press flowers&lt;/title&gt;
 &lt;/header&gt;
+&lt;nav class="page-nav"&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/nav&gt;
 &lt;div class="main-bar"&gt;
 &lt;h1&gt;How to press flowers&lt;/h1&gt;
-&lt;p&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Materials used&lt;/h2&gt;
 &lt;p&gt;I watched a couple of YouTube tutorials to see what I needed, and it took 1-2 batches of pressed flowers (that came out in varying quality) before I settled on a routine. I didn't need fancy tools, like presses made of wood and cardboard and weights as heavy as bricks. I made use of what I had.&lt;/p&gt;
 &lt;p&gt;The basics:&lt;/p&gt;
@@ -258,9 +258,9 @@
 &lt;header&gt;
 &lt;title&gt;SQL query optimization&lt;/title&gt;
 &lt;/header&gt;
+&lt;nav class="page-nav"&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/nav&gt;
 &lt;div class="main-bar"&gt;
 &lt;h1&gt;SQL query optimization&lt;/h1&gt;
-&lt;p&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;One of the annoying problems I've been facing at work is making my SQL queries in Snowflake run more quickly. It didn't use to be a problem I thought about, because the previous pressing issue had been to make a dataset available in the first place, to get a set of dashboards up and running in the first place, speed and performance be damned.&lt;/p&gt;
 &lt;p&gt;Now that those &lt;em&gt;are&lt;/em&gt; up and running, having slow queries and slower dashboards are a pain.&lt;/p&gt;
 &lt;p&gt;But to make any speed improvement, I must first understand query profiles.&lt;/p&gt;
@@ -268,9 +268,9 @@
 &lt;/div&gt;
 &lt;/body&gt;]]&gt;</description><pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate></item><item><title>Attending the Climate Change AI Summer School 2024</title><link>https://commonplace-journal.pages.dev/pages/attending-the-climate-change-ai-summer-school-2024.html</link><guid>9d87351266209c73dd47a54b9acf54ae</guid><description>&lt;![CDATA[&lt;body data-tags="climate change; tech and data; courses"&gt;
 &lt;header&gt;&lt;title&gt;Attending the Climate Change AI Summer School 2024&lt;/title&gt;&lt;/header&gt;
+&lt;nav class="page-nav"&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/nav&gt;
 &lt;div class="main-bar"&gt;
 &lt;h1&gt;Attending the Climate Change AI Summer School 2024&lt;/h1&gt;
-&lt;p&gt;Return to &lt;a href="../index.html"&gt;home&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;About CCAI&lt;/h2&gt;
 &lt;p&gt;Climate Change AI (CCAI) is a non-profit I've followed for a while (they have a newsletter). This year was the first time I signed up for their &lt;a href="https://www.climatechange.ai/events/summer_school2024"&gt;annual summer school&lt;/a&gt;, where they get professors and industry speakers to give introductory lectures about the use of AI/ML techniques in different domains of climate change.&lt;/p&gt;
 &lt;p&gt;I paid 30 SGD for access to a series of virtual lectures and tutorials, most of which were honestly pretty solid! You don't have to complete everything, and access is indefinite after payment, though you do get a certificate if you submit at least eight assessments/feedback forms before the summer ends.&lt;/p&gt;
