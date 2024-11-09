@@ -7,7 +7,7 @@ from datetime import datetime
 
 HTML_DIRECTORY = './pages'
 PAGES_JSON = 'pages.json'
-RSS_XML = 'feed.xml'
+RSS_XML = 'rss.xml'
 
 def get_html_pages(filepath):
     '''
